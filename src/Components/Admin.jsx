@@ -37,7 +37,7 @@ function login(){
         
             <form>
                 <div className="mb-3">
-                    <label htmlFor="username" className="form-label">Username</label>
+                    <label htmlFor="username" className="form-label">Name</label>
                     <input type="text" value={name} onChange={(e) => {setName(e.target.value);}} 
                     className="form-control" id="username" placeholder="Enter your username"  required/>
                 </div>
