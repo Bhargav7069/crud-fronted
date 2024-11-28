@@ -46,7 +46,7 @@ function login(){
                     <input type="password"  value={password} onChange={(e) => {setPassword(e.target.value);}}
                     className="form-control" id="password" placeholder="Enter your password" />
                 </div>
-                <button type="submit" onClick={login} className="btn btn-danger">Login</button>
+                <button type="submit" onClick={login} className="btn btn-danger">SignIn</button>
                 <span>Do not have an account ? <Link to="/signup" style={{color:'blue'}}>Sign Up</Link></span>
             </form>
         </div>
